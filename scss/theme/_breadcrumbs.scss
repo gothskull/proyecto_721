@@ -1,0 +1,10 @@
+.breadcrumbs {
+	padding:10px;
+	color: $blanco;
+}
+.breadcrumbs a {
+/*También podemos utilizar uppercase*/
+	text-transform:capitalize;
+	color: $azul;
+	font-weight:700;
+}
