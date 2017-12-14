@@ -154,3 +154,6 @@ if ( defined( 'JETPACK__VERSION' ) ) {
     require get_template_directory() . '/functions/scripts.php';
     require get_template_directory() . '/functions/register.php';
     require get_template_directory() . '/functions/breadcrumbs.php';
+    require get_template_directory() . '/functions/autor.php';
+    require get_template_directory() . '/functions/excerpt.php';
+    // require get_template_directory() . '/functions/custom_post/servicios.php';

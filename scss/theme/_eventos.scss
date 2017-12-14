@@ -1,0 +1,11 @@
+// EN LA PAGINA
+p.desc_trig_outter .evo_start em.date,p.desc_trig_outter .evo_start em.month,p.desc_trig_outter .evo_start em.day {
+	display: none!important;
+}
+
+// EN EL POP UP
+.evopop_top .evcal_cblock .evo_start   em.day,
+.evopop_top .evcal_cblock .evo_start   em.month,
+.evopop_top .evcal_cblock .evo_start   em.year{
+	display: none!important;
+}

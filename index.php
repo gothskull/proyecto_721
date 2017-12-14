@@ -14,11 +14,18 @@
 
 get_header(); ?>
 
-	<div id="primary" class="content-area">
+	<?php get_template_part('template-parts/content','breadcrumbs'); ?>
+	<div id="primary" class="content-area container">
 		<main id="main" class="site-main">
-
 		<?php
-		if ( have_posts() ) :
+			$args = [
+				'post_type'      => 'post',
+				'orderby'        => 'date',
+				'order'          => 'DESC',
+				'posts_per_page' => 6
+			];
+			$entradas = new WP_Query($args);
+		if ( $entradas->have_posts() ) :
 
 			if ( is_home() && ! is_front_page() ) : ?>
 				<header>
@@ -27,18 +34,25 @@ get_header(); ?>
 
 			<?php
 			endif;
+			?>
+			<div class="row">
+				<?php
+				/* Start the Loop */
+				while ($entradas-> have_posts() ) : $entradas->the_post();
 
-			/* Start the Loop */
-			while ( have_posts() ) : the_post();
+					/*
+					 * Include the Post-Format-specific template for the content.
+					 * If you want to override this in a child theme, then include a file
+					 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
+					 */
+					
 
-				/*
-				 * Include the Post-Format-specific template for the content.
-				 * If you want to override this in a child theme, then include a file
-				 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
-				 */
-				get_template_part( 'template-parts/content', get_post_format() );
+					get_template_part( 'template-parts/content', 'blog' );
 
-			endwhile;
+				endwhile; ?>
+				</div>
+
+				<?php
 
 			the_posts_navigation();
 
@@ -50,7 +64,7 @@ get_header(); ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
-
+	<?php get_template_part('template-parts/content','info_subdireccion') ?>
 <?php
-get_sidebar();
+// get_sidebar();
 get_footer();

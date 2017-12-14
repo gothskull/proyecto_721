@@ -40,10 +40,11 @@ var onError = function(err)
 });
 
  gulp.task('javascript', ['lint'], function() {
-  return gulp.src('./js/**/*.js')
+  return gulp.src('./js/*.js')
     .pipe(plumber({errorHandler:onError}))
-    .pipe(concat('all.min.js'))
-    .pipe(gulp.dest('./js'))
+    .pipe(concat('all.min.js',{newLine:';'}))
+    .pipe(uglify())
+    .pipe(gulp.dest('./js/final'))
     
 });
 
@@ -63,6 +64,7 @@ gulp.task('browser-sync',function(){
     './*.php',
     './scss/**/*.scss',
     './template-parts/*.php',
+    './custom_post/*.php',
     './inc/**/*.php',
     './js/**/*.js',
     './tmp/**/*.php',
@@ -81,6 +83,6 @@ gulp.task('browser-sync',function(){
 
 
 
-gulp.task('default', ['sass','browser-sync','javascript','imagemin'], function() {
+gulp.task('default', ['sass','browser-sync','imagemin'], function() {
   gulp.watch(['scss/*.scss'], ['sass']);
 });

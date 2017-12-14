@@ -25,19 +25,32 @@
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'discapacidad' ); ?></a>
 
 	<header id="masthead" class="site-header">
-		<div class="top-bar">
+		 <div class="top-bar">
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-6 hidden-xs">
-						<p><i class="fa fa-info-circle primary-color"></i> &nbsp;We are served since 35 years to helpless people</p>
+						<p>
+							<a href="<?php echo esc_url( home_url( '/' )) ?>">
+							<i class="fa fa-home primary-color"></i> &nbsp;Proyecto 1113 - Subdirección Local de Tunjuelito
+							</a>
+						</p>
 					</div>
 					<div class="col-sm-6">
-						<ul>
-							<li><a href="#">FAQ</a></li>
-							<li><a href="#">What We Do</a></li>
-							<li><a href="#">Our Story</a></li>
-							<li><a href="#">Contact Us</a></li>
-						</ul>
+						<?php 
+							wp_nav_menu( array(
+								'theme_location'  => 'top-menu',
+								'menu'            => 'div',
+								'container'       => 'div',
+								'container_class' => 'superior-container',
+								'container_id'    => 'superior-container',
+								'menu_class'      => 'menu-superior',
+								'menu_id'         => 'menu-superior',
+								'echo'            => true,
+								'fallback_cb'     => 'wp_page_menu',
+								'items_wrap'      => '<ul id = "%1$s" class = "%2$s">%3$s</ul>',
+								'depth'           => 0,
+							) );
+						?>
 					</div>
 				</div>
 			</div>
@@ -45,7 +58,7 @@
 		<div class=" container container-menu-principal">
 			<div class="site-branding">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-					<img class="img-responsive" src="<?php echo get_template_directory_uri().'/images/final/logo.png' ?>" alt="">
+					<img class="img-responsive" src="<?php echo get_template_directory_uri().'/images/final/logo_1113_70.png' ?>" alt="">
 		    	</a>
 			</div><!-- .site-branding -->
 			
@@ -72,4 +85,4 @@
 			</nav><!-- #site-navigation --></div>
 	</header><!-- #masthead -->
 
-	<div id="content" class="site-content">
+	<div id="content" class="site-content ">

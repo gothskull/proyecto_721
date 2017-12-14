@@ -105,24 +105,19 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 --------------------------------------------------------------*/
 @import "media/media";
 /*--------------------------------------------------------------
+# Fuentes
+--------------------------------------------------------------*/
+@import "https://fonts.googleapis.com/css?family=Poppins:300,700";
+/*--------------------------------------------------------------
 # tema
 --------------------------------------------------------------*/
 @import "theme/header.scss";
 @import "theme/generales.scss";
 @import "theme/breadcrumbs.scss";
-
-#masthead {
-	
-	.menu-principal {
-		float: right;
-		position: relative;
-		top: -35px;
-		li {
-			background-color: #ffffff;
-			padding: 0 15px;
-			text-transform: uppercase;
-		}
-	}
-}
+@import "theme/blog.scss";
+@import "theme/buscador.scss";
+@import "theme/home.scss";
+@import "theme/slider.scss";
+@import "theme/eventos.scss";
 
 

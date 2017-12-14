@@ -1,0 +1,18 @@
+.home-slider-1 {
+	min-height: 450px!important;
+	max-height: 450px!important;
+	.bx-wrapper {
+		box-shadow: none;
+		border: none;
+		max-height: 500px;
+	}
+	.info-slider {
+		position: absolute;
+		bottom: 120px;
+		left: 50px;
+		padding: 8px 40px;
+		background-color: rgba(0,0,0,0.3);
+		transition: all 2s ease;
+		color: $blanco;
+	}
+}

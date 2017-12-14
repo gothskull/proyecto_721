@@ -5,7 +5,43 @@
 		[
 			[
 				"get_template_",
-				"get_template_directory"
+				"get_template_directory_uri"
+			],
+			[
+				"the_perm",
+				"the_permalink"
+			],
+			[
+				"u",
+				"uglify"
+			],
+			[
+				"the_per",
+				"the_permalink"
+			],
+			[
+				"the_post",
+				"the_post_thumbnail"
+			],
+			[
+				"the_p",
+				"the_post"
+			],
+			[
+				"the_auth",
+				"the_author"
+			],
+			[
+				"the_dat",
+				"the_date"
+			],
+			[
+				"the_pos",
+				"the_post_thumbnail"
+			],
+			[
+				"get_the_p",
+				"get_the_post_thumbnail"
 			],
 			[
 				"anima",
@@ -40,90 +76,21 @@
 	"buffers":
 	[
 		{
-			"file": "scss/theme/_custom.scss",
-			"settings":
-			{
-				"buffer_size": 94435,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "functions.php",
-			"settings":
-			{
-				"buffer_size": 4449,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "functions/register.php",
 			"settings":
 			{
-				"buffer_size": 451,
+				"buffer_size": 1741,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "HTML/05-tears-home-page-5.html",
+			"file": "page-calendario.php",
 			"settings":
 			{
-				"buffer_size": 19315,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "functions/scripts.php",
-			"settings":
-			{
-				"buffer_size": 2375,
+				"buffer_size": 3129,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "style.css",
-			"settings":
-			{
-				"buffer_size": 83356,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "tmp/header.php",
-			"settings":
-			{
-				"buffer_size": 6349,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "home.php",
-			"settings":
-			{
-				"buffer_size": 1340,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "header.php",
-			"settings":
-			{
-				"buffer_size": 1848,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "index.php",
-			"settings":
-			{
-				"buffer_size": 1340,
-				"line_ending": "Unix"
 			}
 		}
 	],
@@ -167,15 +134,103 @@
 	},
 	"expanded_folders":
 	[
-		"/C/xampp/htdocs/discapacidad/wp-content/themes/discapacidad",
-		"/C/xampp/htdocs/discapacidad/wp-content/themes/discapacidad/functions"
 	],
 	"file_history":
 	[
+		"/E/1A/PROYECTOS/CASAGAS/datos.txt",
+		"/E/1A/PROYECTOS/CASAGAS/ADWORDS/palabras negativs casagas.txt",
+		"/E/1A/COTIZACIONES/SEPTIEMBRE/MACH INGENIEROS/datos.txt",
+		"/E/1A/COTIZACIONES/JULIO/Daniela  Gaitan - TIENDA CALZADO/datos.txt",
+		"/E/1A/COTIZACIONES/SEPTIEMBRE/danny boohorques amigo de daniela/datos",
+		"/E/1A/COTIZACIONES/DICIEMBRE/ALEJANDRO GOMEZ-TIENDA ARETES/datos.txt",
+		"/C/xampp/htdocs/discapacidad/wp-content/plugins/eventON1/eventon.php",
+		"/U/codigos_luis.php",
+		"/C/Users/blessmen/Dropbox/BASE_PROYECTOS/CHULETAS/WOOCOMMERCE/wc_basico.php",
+		"/U/LIBRERIAS/LIBRERIAS WORDPRESS/CALENDARIO/eventon264/__README.txt",
+		"/C/xampp/htdocs/discapacidad/wp-content/plugins/eventON/eventon.php",
+		"/C/xampp/htdocs/discapacidad/wp-content/themes/discapacidad/page.php",
+		"/C/xampp/htdocs/discapacidad/wp-content/themes/discapacidad/header.php",
+		"/U/LIBRERIAS/LIBRERIAS WORDPRESS/CALENDARIO/eventon246/key.txt",
+		"/U/LIBRERIAS/LIBRERIAS WORDPRESS/CALENDARIO/eventon264/Licensing/GPL.txt",
+		"/U/LIBRERIAS/LIBRERIAS WORDPRESS/CALENDARIO/eventon264/Licensing/README_License.txt",
+		"/C/xampp/htdocs/discapacidad/wp-content/plugins/eventON/index.php",
+		"/U/LIBRERIAS/LIBRERIAS WORDPRESS/CALENDARIO/eventon246/__README.txt",
+		"/E/1A/PROYECTOS/CASAGAS/ADWORDS/sugrencias.txt",
+		"/E/1A/DATOS.txt",
+		"/C/xampp/htdocs/discapacidad/wp-content/themes/discapacidad/front-page.php",
+		"/E/1A/PROYECTOS/EWP/datos.txt",
+		"/E/1A/PROYECTOS/AUDIFONOS/datos.txt",
+		"/E/1A/PROYECTOS/ITPSAS/datos.txt",
 		"/C/xampp/htdocs/discapacidad/wp-content/themes/discapacidad/gulpfile.js",
-		"/C/xampp/htdocs/discapacidad/wp-content/themes/discapacidad/scss/style.scss",
-		"/C/xampp/htdocs/discapacidad/wp-content/themes/discapacidad/home.php",
+		"/C/xampp/htdocs/discapacidad/wp-content/themes/discapacidad/js/custom.js",
+		"/C/xampp/htdocs/discapacidad/wp-content/themes/discapacidad/functions/scripts.php",
+		"/C/xampp/htdocs/discapacidad/wp-content/themes/discapacidad/functions.php",
+		"/C/xampp/htdocs/discapacidad/wp-content/themes/discapacidad/footer.php",
+		"/C/xampp/htdocs/discapacidad/wp-content/themes/discapacidad/style.css",
+		"/C/xampp/htdocs/discapacidad/wp-content/themes/discapacidad/index.php",
+		"/C/xampp/htdocs/discapacidad/wp-content/themes/discapacidad/template-parts/content-blog.php",
+		"/C/xampp/htdocs/discapacidad/wp-content/themes/discapacidad/functions/register.php",
+		"/E/1A/PROYECTOS/RIESGO CERO/datos.txt",
+		"/E/1A/PROYECTOS/LACOMEX/datos_cliente.txt",
+		"/C/xampp/htdocs/discapacidad/wp-content/themes/discapacidad/template-parts/content-single.php",
+		"/C/xampp/htdocs/discapacidad/wp-content/themes/discapacidad/functions/excerpt.php",
+		"/C/Users/blessmen/Dropbox/BASE_PROYECTOS/CHULETAS/WP/soluciones_wp.php",
+		"/E/1A/PROYECTOS/AUDIFONOS/datos_cliente.txt",
+		"/E/1A/PROYECTOS/RUSSI/DOC/datos.txt",
+		"/E/traslado Hosting 2017/cardozo abogados/datos/accesos 2017.txt",
+		"/E/1A/COTIZACIONES/ABRIL/camilo russi edu/datos.txt",
+		"/E/1A/PROYECTOS/DURAN OSORNO/datos.txt",
+		"/E/traslado Hosting 2017/cardozo abogados/datos/datos.txt",
+		"/E/traslado Hosting 2017/diseño trazos ymadera/datos2017.txt",
+		"/E/traslado Hosting 2017/cercas del norte/datosCercasDelNorte2017.txt",
+		"/E/1A/PROYECTOS/UNO A/DATOS.txt",
+		"/F/ALL FOR FORMAT 2016/IMAP COPY/ImapCopy.cfg",
+		"/E/1A/WEB HCH/datos_web_hch",
+		"/E/1A/PROYECTOS/CERCAS DEL NORTE/datosCercasDelNorte2017.txt",
+		"/E/1A/PROYECTOS/CARDOZO ABOGADOS/datos/accesos 2017.txt",
+		"/E/1A/PROYECTOS/DISEÑO TRAZOS Y MADERA/datos2017.txt",
+		"/E/traslado de hosting/diseñoTrazosYMadera/datos.txt",
+		"/U/wp-config (1).php",
+		"/U/wp-config (2).php",
+		"/E/1A/PROYECTOS/ESVECOREAL/datos.txt",
+		"/E/1A/PROYECTOS/RUSSI/DOC/genios.txt",
+		"/E/1A/PROYECTOS/LACOMEX/datos.txt",
+		"/E/traslado Hosting 2017/diseño trazos ymadera/datos.txt",
+		"/C/Users/blessmen/Dropbox/varios/hosting2017.txt",
+		"/C/xampp/php/php.ini",
+		"/C/xampp/htdocs/esveco/wp-config.php",
+		"/E/1A/PROYECTOS/CALZADO SOFIA/datos.txt",
+		"/C/xampp/htdocs/discapacidad/wp-content/themes/discapacidad/js/bootstrap.min.js",
+		"/C/xampp/htdocs/discapacidad/wp-content/themes/discapacidad/js/popper.min.js",
+		"/C/xampp/htdocs/discapacidad/wp-content/themes/discapacidad/js/main.js",
+		"/C/xampp/htdocs/discapacidad/wp-content/themes/discapacidad/js/bootstrap.bundle.min.js",
+		"/C/xampp/htdocs/discapacidad/wp-content/themes/discapacidad/js/final/all.min.js",
+		"/C/xampp/htdocs/discapacidad/wp-content/themes/discapacidad/js/all.min.js",
+		"/C/xampp/htdocs/discapacidad/wp-content/themes/discapacidad/single.php",
+		"/C/xampp/htdocs/discapacidad/wp-content/themes/discapacidad/HTML/11-tears-our-blog-details.html",
 		"/C/xampp/htdocs/discapacidad/wp-content/themes/discapacidad/scss/theme/_header.scss",
+		"/C/xampp/htdocs/discapacidad/wp-content/themes/discapacidad/tmp/header.php",
+		"/C/xampp/htdocs/discapacidad/wp-content/themes/discapacidad/scss/style.scss",
+		"/C/xampp/htdocs/discapacidad/wp-content/themes/discapacidad/sidebar.php",
+		"/C/xampp/htdocs/discapacidad/wp-content/themes/discapacidad/functions/autor.php",
+		"/C/xampp/htdocs/discapacidad/wp-content/themes/discapacidad/scss/theme/_blog.scss",
+		"/C/xampp/htdocs/discapacidad/wp-content/themes/discapacidad/HTML/09-tears-our-blog-style-1.html",
+		"/C/xampp/htdocs/discapacidad/wp-content/themes/discapacidad/scss/variables-site/_typography.scss",
+		"/C/xampp/htdocs/discapacidad/wp-content/themes/discapacidad/page-calendario.php",
+		"/C/xampp/htdocs/discapacidad/wp-content/themes/discapacidad/page-contactanos.php",
+		"/C/xampp/htdocs/discapacidad/wp-content/themes/discapacidad/page-quienes-somos.php",
+		"/C/xampp/htdocs/discapacidad/wp-content/themes/discapacidad/HTML/02-tears-home-page.html",
+		"/C/xampp/htdocs/discapacidad/wp-content/themes/discapacidad/page-temas.php",
+		"/C/xampp/htdocs/discapacidad/wp-content/themes/discapacidad/HTML/23-tears-Programs-Page.html",
+		"/C/xampp/htdocs/discapacidad/wp-content/themes/discapacidad/scss/variables-site/_colors.scss",
+		"/C/xampp/htdocs/discapacidad/wp-content/themes/discapacidad/scss/theme/_generales.scss",
+		"/C/xampp/htdocs/discapacidad/wp-content/themes/discapacidad/template-parts/content-none.php",
+		"/C/xampp/htdocs/discapacidad/wp-content/themes/discapacidad/functions/breadcrumbs.php",
+		"/C/xampp/htdocs/discapacidad/wp-content/themes/discapacidad/scss/theme/_breadcrumbs.scss",
+		"/C/xampp/htdocs/discapacidad/wp-content/themes/discapacidad/template-parts/content-home.php",
+		"/C/xampp/htdocs/discapacidad/wp-content/themes/discapacidad/HTML/05-tears-home-page-5.html",
+		"/C/xampp/htdocs/discapacidad/wp-content/themes/discapacidad/home.php",
+		"/C/xampp/htdocs/discapacidad/wp-content/themes/discapacidad/scss/theme/_custom.scss",
 		"/C/xampp/htdocs/angular_robles/spaFh/src/app/app.component.html",
 		"/C/xampp/htdocs/angular_robles/spaFh/src/app/app.routes.ts",
 		"/C/xampp/htdocs/angular_robles/spaFh/src/app/app.module.ts",
@@ -185,7 +240,6 @@
 		"/C/xampp/htdocs/angular_robles/spaFh/src/app/components/nosotros/nosotros.component.ts",
 		"/G/FINAL ORGANIZADO/CURSOS/Lenguajes de Programacion/PHP/POS/application/controllers/clientes.php",
 		"/C/xampp/htdocs/pizzeria_new/wp-content/themes/bootstrap/style.css",
-		"/E/1A/PROYECTOS/CASAGAS/datos.txt",
 		"/C/xampp/htdocs/pizzeria_new/wp-content/themes/bootstrap/inc/navbar.php",
 		"/C/xampp/htdocs/pizzeria_new/wp-content/themes/bootstrap/gulpfile.js",
 		"/C/xampp/htdocs/pizzeria_new/wp-content/themes/bootstrap/js/all.min.js",
@@ -203,22 +257,14 @@
 		"/E/1A/COTIZACIONES/OCTUBRE/cielo-parranda vallenata/datos.txt",
 		"/E/1A/COTIZACIONES/OCTUBRE/elenith-tienda perrfumes/datos.txt",
 		"/E/1A/PROYECTOS/LIPUR/datos_host_lipur.txt",
-		"/E/1A/DATOS.txt",
 		"/F/ALL FOR FORMAT 2016/TUNEUP/PC.TuneUp.2016.v16.62.2.46691.WIN64.Incl.Keygen-REPT/Instrucciones.txt",
 		"/C/cygwin64/home/blessmen/.bash_profile",
 		"/C/Users/blessmen/Dropbox/BASE PROYECTOS/CHULETAS/chuletas.php",
 		"/E/1A/PROYECTOS/MARIACHI BLANCO/ideas contenido.txt",
 		"/F/Documents/godaddy.txt",
-		"/E/1A/PROYECTOS/ESVECOREAL/datos.txt",
 		"/C/xampp/htdocs/mariachi/wp-config.php",
-		"/C/xampp/php/php.ini",
 		"/C/xampp/htdocs/mariachi/wp-content/themes/aqura/style.css",
-		"/C/Users/blessmen/Dropbox/BASE PROYECTOS/CHULETAS/codigosUtiles.php",
-		"/C/xampp/htdocs/mariachi/wp-content/themes/aqura/functions.php",
-		"/E/1A/PROYECTOS/MARIACHI BLANCO/dominios_blanco.txt",
-		"/D/CURSOS 2017/VIDEO/AFTER EFFECTS/MEGACURSO AFTER FFECTS/Información del archivo.txt",
-		"/E/1A/PROYECTOS/LIPUR/datos_cliente.txt",
-		"/D/ALL FOR FORMAT 2016/ANTIVIRUS/ANTIVIRUS/AVAST/AVAST 5.0.418/Instalacion.txt"
+		"/C/Users/blessmen/Dropbox/BASE PROYECTOS/CHULETAS/codigosUtiles.php"
 	],
 	"find":
 	{
@@ -229,6 +275,7 @@
 		"height": 110.0,
 		"where_history":
 		[
+			"C:\\xampp\\htdocs\\discapacidad\\wp-content\\themes\\discapacidad"
 		]
 	},
 	"find_state":
@@ -236,6 +283,44 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"*",
+			"map-bg.jpg",
+			"map-bg.png",
+			"flogo.png",
+			"flogo",
+			"../images/final/",
+			"images/",
+			"bg-gray.jpg",
+			"bg-gray",
+			"src=",
+			"bootstrap",
+			"custom",
+			"!function(t){wp.customize(\"blogname\",function(i){i.bind(function(i){t(\".site-title a\").text(i)})}),wp.customize(\"blogdescription\"",
+			"rectangle",
+			"// Site title and description.",
+			"dest",
+			"h2",
+			"h2 ",
+			"jpg\"",
+			"png\"",
+			"jpg\"",
+			"png\"",
+			"src=\"images/",
+			"'/images/",
+			"dstats",
+			"png\"",
+			"src=\"",
+			".'/images",
+			"png\"",
+			"pg\"",
+			"src=\"",
+			"// QUANTITY\n$('.qty-inner >div').click(function(e) {\n\te.preventDefault();\n\n\tfieldName = $(this).attr('data-field');\n\ttype = $(this).attr('data-type');\n\tvar input = $(\"input[name='\" + fieldName + \"']\");\n\tvar currentVal = parseInt(input.val());\n\tif (!isNaN(currentVal)) {\n\t\tif (type == 'minus') {\n\n\t\t\tif (currentVal > input.attr('min')) {\n\t\t\t\tinput.val(currentVal - 1).change();\n\t\t\t}\n\t\t\tif (parseInt(input.val()) == input.attr('min')) {\n\t\t\t\t$(this).attr('disabled', true);\n\t\t\t}\n\n\t\t} else if (type == 'plus') {\n",
+			"png\"",
+			"<?php echo get_template_directory_uri() ?> ",
+			"<?php echo get_template_directory_uri()",
+			"lity_js",
+			"slick",
+			"src=\""
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -259,231 +344,54 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "scss/theme/_custom.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 94435,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								93747,
-								93747
-							]
-						],
-						"settings":
-						{
-							"open_with_edit": true,
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 122919.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "functions.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4449,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4447,
-								4435
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2340.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "functions/register.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 451,
+						"buffer_size": 1741,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								337,
-								337
+								317,
+								317
 							]
 						],
 						"settings":
 						{
-							"open_with_edit": true,
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "HTML/05-tears-home-page-5.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 19315,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								901,
-								889
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 780.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "functions/scripts.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2375,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1060,
-								1060
-							]
-						],
-						"settings":
-						{
-							"open_with_edit": true,
 							"syntax": "Packages/PHP/PHP.sublime-syntax",
 							"tab_size": 4,
-							"translate_tabs_to_spaces": true,
-							"word_wrap": false
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "style.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 83356,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								9232,
-								9232
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "tmp/header.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6349,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								541,
-								541
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 720.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "home.php",
+					"buffer": 1,
+					"file": "page-calendario.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1340,
+						"buffer_size": 3129,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								37,
+								6
 							]
 						],
 						"settings":
@@ -492,74 +400,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 180.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 8,
-					"file": "header.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1848,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1684,
-								1684
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 304.0,
+						"translation.y": 100.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "index.php",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 1340,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								1340
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 360.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
 					"type": "text"
 				}
 			]
@@ -582,18 +426,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.484091369644,
 			1.0
 		],
 		"rows":
@@ -645,15 +482,15 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
-	"side_bar_width": 314.0,
+	"side_bar_visible": true,
+	"side_bar_width": 215.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

@@ -1,0 +1,40 @@
+#masthead {
+// MENU PRINCIPAL
+	.menu-principal {
+		float: right;
+		position: relative;
+		top: -35px;
+		li {
+			background-color: #ffffff;
+			padding: 0 15px;
+			text-transform: uppercase;
+			a {
+				transition: all 1s ease;
+					&:hover {
+						border-bottom: 2px solid $azul;
+					}	
+			}
+			
+		}
+	}
+	.container-menu-principal {
+		padding-top: 20px!important;
+	}
+}
+// MENU SUPERIOR
+.top-bar {
+	background-color: $blanco_puro!important;
+	border-bottom: 1px solid $azul;
+	color: $azul!important;
+	#menu-superior {
+		a{
+			color: $azul;
+			transition: all 1s ease;
+			&:hover {
+				border-bottom: 1px solid $azul;
+			}
+		}
+		
+	}
+}
+
